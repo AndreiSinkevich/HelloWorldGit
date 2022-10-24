@@ -1,0 +1,48 @@
+body {
+    background-color: bisque;
+    font-family: Tahoma;
+}
+
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    padding: 10px;
+    background-color: brown;
+}
+
+a {
+    color: rgb(73, 73, 73);
+}
+
+header {
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 0 300px 0 300px;
+}
+
+div {
+    margin: 20px 0 20px 0;
+    padding: 30px;
+    border: brown solid;
+    border-radius: 10px;
+}
+
+img {
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: brown;
+    color: #fff;
+}
+
