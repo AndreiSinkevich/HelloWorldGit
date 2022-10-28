@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1146px;
+    margin: auto;
+}
+
+header {
+    background-image: url(../img/sky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px 138px 0px;
+}
+
+nav {
+    background-color: #003395;
+    padding: 27px 0 26px 0;
+
+}
+
+main {
+    padding-top: 57px;
+    margin-bottom: 62px;
+    
+}
+
+.left-column {
+    vertical-align: top;
+    display: inline-block;
+    width: 754px;
+}
+
+.left-column div {
+    margin-bottom: 34px;
+}
+
+.right-column {
+    vertical-align: top;
+    margin-left: 26px;
+    display: inline-block;
+    width: 362px;
+}
+
+.right-column div {
+    margin-bottom: 55px;
+    border: solid 2px #33008D;
+    padding: 19px 19px 26px 19px;
+}
+
+footer {
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+}
