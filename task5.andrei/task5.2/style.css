@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(51, 46, 46);
+    padding: 50px 0 0;
+}
+
+nav {
+    background-color: violet;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    
+}
+
+header li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+}
+
+header li a:hover {
+    color: red
+}
+
+header li ul li {
+    border-bottom: #000 solid 1px;
+    display: block;
+    position: relative;
+}
+
+header li ul {
+    width: 150px;
+    position: absolute;
+    background-color: violet;
+    display: none;
+}
+
+header li:hover > ul {
+    display: block;
+}
+
+header li ul li ul {
+    left: 150px;
+    top: 0px;
+}
