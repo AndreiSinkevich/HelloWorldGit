@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7CDAEF;
+    margin-top: 104px;
+}
+
+
+.container {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+.blue {
+    background: rgba(14, 73, 126, 0.7);
+    padding: 99px 79px 177px 78px;
+}
+
+.sky1 {
+    position: absolute;
+    right: -155px;
+    top: -59px;
+    z-index: 1;
+}
+
+.sky2 {
+    position: absolute;
+    top: 179px;
+    left: -205px;
+    z-index: -1;
+}
+
+.sky3 {
+    position: absolute;
+    top: 450px;
+    right: -206px;
+    z-index: -1;
+}
+
+.bird {
+    width: 118px;
+    margin-right: 10px;
+}
+
+.grass {
+    position: fixed;
+    background-image: url(../img/grass.png);
+    width: 100%;
+    height: 132px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
