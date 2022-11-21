@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 20px;
+}
+
+button {
+    width: 35px;
+    height: 35px;
+    background: url(search.png) no-repeat center / 20px rgb(79, 143, 154);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.search  {
+    display: inline-block;
+    border: 2px rgb(79, 143, 154) solid;
+    border-radius: 3px;
+}
+
+input {
+    padding: 5px;
+    vertical-align: middle;
+    border: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: #bebfc1;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
