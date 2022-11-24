@@ -22,18 +22,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .logo {
-    font: 400 32px Georgia;
+    font: 32px/35px 'Georgia';
     text-decoration: none;
-    color: #F1CDB3;
     letter-spacing: 0.06em;
+    color: #545454;
 }
 
 .slogan {
-    font: 400 13px Arial;
+    font: 13px/15px 'Arial';
     letter-spacing: 0.1em;
+    color: #292929;
+    padding-top: 10px;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+
+}
+
+.mobile-menu {
+    width: 30px;
+    display: none;
 }
 
 nav ul {
@@ -67,12 +79,11 @@ main {
 }
 
 h1 {
+    font: 35px/45px 'Georgia';
+    letter-spacing: 0.06em;
+    color: #545454;
     margin-bottom: 60px;
     text-align: center;
-    font-size: 35px;
-    color: #545454;
-    letter-spacing: 0.06em;
-    font-weight: 400;
 }
 
 .pets {
@@ -159,7 +170,7 @@ img {
     display: block;
 }
 
-footer .flex-wrapper > div {
+footer .footer-text {
     width: 300px;
 }
 
@@ -175,7 +186,7 @@ footer h2 {
     margin-bottom: 33px;
 }
 
-footer p{
+footer p {
     min-height: 46px;
     display: flex;
     align-items: center;
@@ -200,4 +211,68 @@ footer .tel {
 footer .local {
     background: url(../images/pin.svg) no-repeat left center;
     padding-left: 42px;
+}
+
+
+
+
+@media(max-width: 1220px){
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 932px) {
+    footer .container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 852px) {
+    .freddie, .scarlet {
+        display: none;
+    }
+    .pets {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 767px){
+    .mobile-menu {
+        display: block;
+        margin-right: 23px;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 632px) {
+    footer h2 {
+        font-size: 25px;
+        text-align: center;
+        width: 270px;
+    }
+}
+
+@media(max-width: 568px){
+    h1 {
+        font-size: 25px;
+    }
+
+    .charly, .timmy, .sofia {
+        display: none;
+    }
+
+    .pets-nav{
+        width: 300px;
+    }
+}
+
+@media (max-width: 490px) {
+    footer .puppy {
+        width: 260px;
+    }
 }
