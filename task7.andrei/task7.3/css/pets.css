@@ -43,6 +43,12 @@ header {
 
 }
 
+.menu {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
 .mobile-menu {
     width: 30px;
     display: none;
